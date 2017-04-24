@@ -1,0 +1,111 @@
+#number-projects-nd {
+   font-size: 30px;
+}
+
+#total-donations-nd {
+   font-size: 30px;
+}
+
+/*--- Layout CSS ---*/
+body.application {
+    padding: 0;
+}
+
+.nav {
+    color: white;
+}
+
+.navbar {
+    position: relative;
+}
+.container-fluid{
+    position: relative;
+}
+.navbar-header {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.row {
+    text-align: center;
+    padding-right:30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.intro_button{
+
+    background-color: #1ab394;
+    color: white;
+    margin-top: 13px;
+    margin-left: 30px;
+    padding: 0 15px;
+    position: absolute;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.graph_button {
+    width: 17%;
+    height: 80px;
+    font-size: 25px;
+}
+
+#menu-select {
+    width: 200px;
+}
+
+.clear {
+    clear: left;
+}
+/*--- End of Layout CSS ---*/
+
+.dc-chart g.row text {
+   fill: black;
+   font-size: 12px;
+}
+
+#total-projects {
+   background: #33CC99;
+   width: 200px;
+   position: relative;
+   height: 60px;
+   font-size: 29px;
+   color: white;
+   vertical-align: middle;
+   text-align: center;
+   padding-top: 12px;
+   padding-bottom: 0px;
+}
+
+#net-donations {
+   background: #33CC99;
+   width: 200px;
+   position: relative;
+   height: 60px;
+   font-size: 29px;
+   color: white;
+   vertical-align: middle;
+   text-align: center;
+   padding-top: 12px;
+   padding-bottom: 0;
+}
+
+
+.dc-select-menu {
+   background: #33CC99;
+   width: 60%;
+   border: none;
+   position: relative;
+   height: 31px;
+   font-size: 15px;
+   color: white;
+   vertical-align: middle;
+   text-align: center;
+   padding-top: 4px;
+   padding-bottom: 0px;
+
+}

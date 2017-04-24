@@ -1,0 +1,210 @@
+<div  id="show-graphs" class="container-fluid">
+
+   <div class="row col-sm-8">
+
+               <!-- Time Chart -->
+               <div class="col-sm-12 time-chart">
+                   <div class="chart-wrapper"
+                        data-step="1"
+                        data-intro="Area chart showing the number of donations over a period of time. Drag and select to view detailed data for
+                                    a particular time range"
+                        data-position="right">
+                       <div class="chart-title">
+                           Number of Donations
+                       </div>
+                       <div class="chart-stage">
+                           <div id="time-chart"></div>
+                       </div>
+                   </div>
+               </div>
+               <!-- Time Chart -->
+
+               <!-- funding Pie -->
+               <div class="col-sm-6 funding-chart">
+                   <div class="chart-wrapper"
+                        data-step="2"
+                        data-intro="Funding Status Displayed on a donut chart."
+                        data-position="right">
+                       <div class="chart-title">
+                           Funding Status
+                       </div>
+                       <div class="chart-stage">
+                           <div id="funding-chart"></div>
+                       </div>
+                   </div>
+               </div>
+               <!-- funding Pie -->
+
+               <!-- Grades chart -->
+               <div class="col-sm-6 grades-chart">
+                   <div class="chart-wrapper"
+                        data-step="3"
+                        data-intro="View the donation counts for the different grade groups"
+                        data-position="right">
+                       <div class="chart-title">
+                           Grade Level
+                       </div>
+                       <div class="chart-stage">
+                           <div id="grade-chart"></div>
+                       </div>
+                   </div>
+               </div>
+               <!-- Grades Chart -->
+
+
+               <!-- Poverty -->
+               <div class="col-sm-6 poverty-chart clear">
+                   <div class="chart-wrapper"
+                        data-step="4"
+                        data-intro="View the donation count for the different poverty levels."
+                        data-position="right">
+                       <div class="chart-title">
+                           Poverty Level
+                       </div>
+                       <div class="chart-stage">
+                           <div id="poverty-level-row-chart"></div>
+                       </div>
+                   </div>
+               </div>
+               <!-- Poverty -->
+
+               <!-- Resources -->
+               <div class="col-sm-6 resources-chart">
+                   <div class="chart-wrapper"
+                        data-step="5"
+                        data-intro="View the donation count for the different type of resources."
+                        data-position="right">
+                       <div class="chart-title">
+                           Resources Type
+                       </div>
+                       <div class="chart-stage">
+                           <div id="resource-type-row-chart"></div>
+                       </div>
+                   </div>
+               </div>
+               <!-- Resources -->
+   </div>
+
+
+    <div class="row col-sm-4">
+        <!-- Number of students reached -->
+       <div id = "num-display-students" class="col-sm-6">
+           <div class="chart-wrapper"
+                        data-step="6"
+                        data-intro="Widget displays the total number of reached students for the selections."
+                        data-position="left">
+               <div class="chart-title">
+                   Number of students reached
+               </div>
+               <div class="chart-stage">
+                   <div id="students-nd" class="big-numbers"></div>
+               </div>
+           </div>
+       </div>
+       <!-- Number of students reached -->
+
+       <!-- Number of donors -->
+       <div id="num-display-donors" class="col-sm-6">
+           <div class="chart-wrapper"
+                        data-step="7"
+                        data-intro="Widget displays the total number of donors for the selections."
+                        data-position="left">
+               <div class="chart-title">
+                   Number of donors
+               </div>
+               <div class="chart-stage">
+                   <div id="donors-nd" class="big-numbers"></div>
+               </div>
+           </div>
+       </div>
+       <!-- Number of donors -->
+
+       <!-- Average Students reached -->
+       <div id= "num-display-average-students" class="col-sm-6">
+           <div class="chart-wrapper"
+                        data-step="8"
+                        data-intro="Widget displays the average students reached for the selections."
+                        data-position="left">
+               <div class="chart-title">
+                   Average students reached
+               </div>
+               <div class="chart-stage">
+                   <div id="avg-students-nd" class="big-numbers"></div>
+               </div>
+           </div>
+       </div>
+       <!-- Average Students reached -->
+
+       <!-- Percentage of total donations -->
+       <div id = "num-display-percentage-donations" class="col-sm-6">
+           <div class="chart-wrapper"
+                        data-step="9"
+                        data-intro="Widget displays the percentage of total donations for the selections."
+                        data-position="left">
+               <div class="chart-title">
+                   Percentage of total donations
+               </div>
+               <div class="chart-stage">
+                   <div id="ratio-donations-nd" class="big-numbers"></div>
+               </div>
+           </div>
+       </div>
+       <!-- Percentage of total donations -->
+
+       <!-- Metric 1 -->
+       <div class="col-sm-6">
+           <div class="chart-wrapper"
+                data-step="10"
+                data-intro="Widget displays the total donation count for the selections"
+                data-position="left">
+               <div class="chart-title">
+                   Total Number of Donations
+               </div>
+               <div class="chart-stage" style=" background: #33CC99;
+                   position: relative;
+                   font-size: 29px;
+                   color: white;
+                   vertical-align: middle;
+                   text-align: center;
+                   padding-top: 12px;
+                   padding-bottom: 0;">
+                   <div id="number-projects-nd"></div>
+               </div>
+           </div>
+       </div>
+       <!-- Metric 1 -->
+
+       <!-- Metric 2 -->
+       <div class="col-sm-6">
+           <div class="chart-wrapper"
+                data-step="11"
+                data-intro="Widget displays the total donation amount for the selections"
+                data-position="left">
+               <div class="chart-title">
+                   Total Donations in USD
+               </div>
+               <div class="chart-stage">
+                   <div id="total-donations-nd"></div>
+               </div>
+           </div>
+       </div>
+       <!-- Metric 2 -->
+
+       <!-- menu select -->
+       <div class="col-sm-6 clear">
+           <div class="chart-wrapper"
+                data-step="12"
+                data-intro="State Selector Drop Down. Select a state to view specific stats. OPTIONAL FIELD"
+                data-position="left">
+               <div class="chart-title">
+                   Donation State
+               </div>
+               <div class="chart-stage">
+                   <div id="menu-select"></div>
+               </div>
+           </div>
+       </div>
+       <!-- menu select -->
+
+    </div>
+</div>
