@@ -10,6 +10,7 @@ function makeGraphs(error, projectsJson) {
     var dateFormat = d3.time.format("%d-%m-%Y %H:%M");
    donorsUSProjects.forEach(function (d) {
        d["date_posted"] = dateFormat.parse(d["date_posted"]);
+       console.log(d['date_posted']);
        d["date_posted"].setDate(1);
        d["total_donations"] = +d["total_donations"];
    });
